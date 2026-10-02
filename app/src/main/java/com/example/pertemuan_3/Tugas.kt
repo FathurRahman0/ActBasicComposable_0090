@@ -79,5 +79,14 @@ fun TugasLogin(modifier: Modifier) {
                 letterSpacing = 1.sp,
                 style = TextStyle(shadow = BayanganTeks)
             )
-
+            Spacer(modifier = Modifier.height(75.dp))
+            //Logo
+            Image(
+                painter = logo,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .shadow(elevation = 12.dp, shape = CircleShape)
+            )
+            Spacer(modifier = Modifier.height(10.dp))
 }
