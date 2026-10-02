@@ -48,6 +48,7 @@ fun TugasLogin(modifier: Modifier) {
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.TopCenter
     ) {
+        //Gambar latar (digelapkan sedikit agar teks lebih terbaca)
         Image(
             painter = latar,
             contentDescription = null,
@@ -64,6 +65,7 @@ fun TugasLogin(modifier: Modifier) {
                 .padding(top = 40.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            //Judul
             Text(
                 text = "Login",
                 fontSize = 36.sp,
@@ -89,4 +91,14 @@ fun TugasLogin(modifier: Modifier) {
                     .shadow(elevation = 12.dp, shape = CircleShape)
             )
             Spacer(modifier = Modifier.height(10.dp))
+            //Identitas
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                color = KoralHangat,
+                fontWeight = FontWeight.Bold,
+                letterSpacing = 2.sp,
+                style = TextStyle(shadow = BayanganTeks)
+            )
+
 }
