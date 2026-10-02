@@ -29,3 +29,12 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+private val EmasLembut = Color(0xFFFFD166)
+private val PutihBersih = Color(0xFFF8F9FA)
+private val KoralHangat = Color(0xFFFF6B6B)
+private val BayanganTeks = Shadow(
+    color = Color.Black.copy(alpha = 0.6f),
+    offset = Offset(2f, 2f),
+    blurRadius = 8f
+)
