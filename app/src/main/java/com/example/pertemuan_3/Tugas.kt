@@ -64,5 +64,20 @@ fun TugasLogin(modifier: Modifier) {
                 .padding(top = 40.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Text(
+                text = "Login",
+                fontSize = 36.sp,
+                color = EmasLembut,
+                fontWeight = FontWeight.ExtraBold,
+                letterSpacing = 4.sp,
+                style = TextStyle(shadow = BayanganTeks)
+            )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 14.sp,
+                color = PutihBersih.copy(alpha = 0.9f),
+                letterSpacing = 1.sp,
+                style = TextStyle(shadow = BayanganTeks)
+            )
 
 }
