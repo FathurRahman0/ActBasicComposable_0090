@@ -38,3 +38,10 @@ private val BayanganTeks = Shadow(
     offset = Offset(2f, 2f),
     blurRadius = 8f
 )
+
+@Composable
+fun TugasLogin(modifier: Modifier) {
+    val latar = painterResource(id = R.drawable.foto_porche)
+    val logo = painterResource(id = R.drawable.logo_umy)
+    val gambar = painterResource(id = R.drawable.foto_spongebobs)
+}
