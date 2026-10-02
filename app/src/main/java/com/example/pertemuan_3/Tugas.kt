@@ -100,5 +100,21 @@ fun TugasLogin(modifier: Modifier) {
                 letterSpacing = 2.sp,
                 style = TextStyle(shadow = BayanganTeks)
             )
+            Text(
+                text = "Fathur Rahman",
+                fontSize = 18.sp,
+                color = PutihBersih,
+                fontWeight = FontWeight.SemiBold,
+                style = TextStyle(shadow = BayanganTeks)
+            )
+            Text(
+                text = "20240140090",
+                fontSize = 24.sp,
+                color = EmasLembut,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Monospace,
+                letterSpacing = 3.sp,
+                style = TextStyle(shadow = BayanganTeks)
+            )
 
 }
