@@ -116,5 +116,24 @@ fun TugasLogin(modifier: Modifier) {
                 letterSpacing = 3.sp,
                 style = TextStyle(shadow = BayanganTeks)
             )
-
+            Spacer(modifier = Modifier.height(20.dp))
+            //Foto bulat
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit,
+                modifier = Modifier
+                    .size(230.dp)
+                    .shadow(elevation = 16.dp, shape = CircleShape)
+                    .clip(CircleShape)
+                    .border(
+                        width = 5.dp,
+                        brush = Brush.sweepGradient(
+                            listOf(EmasLembut, PutihBersih, EmasLembut)
+                        ),
+                        shape = CircleShape
+                    )
+            )
+        }
+    }
 }
