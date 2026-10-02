@@ -47,7 +47,7 @@ fun TugasLogin(modifier: Modifier) {
     Box(
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.TopCenter
-    ){
+    ) {
         Image(
             painter = latar,
             contentDescription = null,
@@ -57,5 +57,12 @@ fun TugasLogin(modifier: Modifier) {
                 blendMode = BlendMode.Darken
             ),
             modifier = Modifier.fillMaxSize()
-    )
+        )
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
 }
