@@ -47,5 +47,15 @@ fun TugasLogin(modifier: Modifier) {
     Box(
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.TopCenter
+    ){
+        Image(
+            painter = latar,
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            colorFilter = ColorFilter.tint(
+                color = Color.Black.copy(alpha = 0.35f),
+                blendMode = BlendMode.Darken
+            ),
+            modifier = Modifier.fillMaxSize()
     )
 }
